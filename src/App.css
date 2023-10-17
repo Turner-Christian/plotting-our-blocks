@@ -1,6 +1,3 @@
-.App {
-  text-align: center;
-}
 
 .App-logo {
   height: 40vmin;
@@ -36,3 +33,50 @@
     transform: rotate(360deg);
   }
 }
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app {
+  display: flex;
+  background-color: #dddddd;
+  width: 90vw;
+  height: 90vh;
+  justify-self: center;
+  padding: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.header {
+  background-color: #6aa84f;
+  width: 100%;
+  height: 25%;
+}
+
+.navigation {
+  background-color: #6fa8dc;
+  width: 20%;
+  height: 60%;
+}
+
+.main {
+  background-color: #e06666;
+  width: 75%;
+}
+
+.subcontent {
+  background-color: #ffd966;
+  width: 100%;
+  height: 10%;
+}
+
+.advertisement {
+  background-color: #b4a7d6;
+}
+
