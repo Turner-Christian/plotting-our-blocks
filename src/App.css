@@ -70,13 +70,20 @@
   width: 75%;
 }
 
+.mainbox {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
 .subcontent {
   background-color: #ffd966;
-  width: 100%;
-  height: 10%;
+  width: 20%;
+  height: 25rem;
+  padding: 1rem
 }
 
 .advertisement {
   background-color: #b4a7d6;
+  width: 100%;
 }
-

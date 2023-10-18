@@ -4,7 +4,7 @@ import '../App.css';
 
 const Main = (props) => {
     return (
-        <div className='main box'>
+        <div className='main box mainbox'>
             {props.children}
         </div>
     )
